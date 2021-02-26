@@ -1,0 +1,41 @@
+import json
+with open('tweet-json.txt') as json_file:
+     data = json.load(json_file)
+     dir(data)
+with open('tweet-json.txt', encoding="utf-8" ) as json_file:
+     data = json.load(json_file)
+     dir(data)
+with open('tweet-json.txt', encoding="utf-8" ) as json_file:
+     data = json.load(json_file)
+     dumps(data, indent=4)
+with open('tweet-json.txt', encoding="utf-8" ) as json_file:
+     data = json.load(json_file)
+     json.dumps(data, indent=4)
+with open('tweet-json.txt', encoding="utf-8" ) as json_file:
+     data = json.load(json_file)
+     json.dumps(data, indent=4)
+cat tweet-json.txt
+data = {'people':[{'name': 'Scott', 'website': 'stackabuse.com', 'from': 'Nebraska'}]}
+json.dumps(data, indent=4)
+with open('tweet-json.txt', encoding="utf-8" ) as json_file:
+     data = json.load(json_file)
+data
+data['id']
+with open('tweet-json.txt', encoding="utf-8" ) as json_file:
+     data = json.load(json_file)
+dir(data)
+data.keys
+(data.keys)
+dir(data.keys)
+data
+for p in data:
+    print(data['id'])
+for p in data:
+    print(data['id'])
+    print(data['retweet_count'])
+    print(data['favourite_count'])
+for p in data:
+    print(data['id'])
+    print(data['retweet_count'])
+    print(data['favorite_count'])
+%history

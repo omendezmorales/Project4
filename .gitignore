@@ -1,2 +1,8 @@
 *.md
 *.pdf
+
+.ipynb_checkpoints/
+
+.vscode/
+
+tweet_json.txt

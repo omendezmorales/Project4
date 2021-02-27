@@ -12,10 +12,10 @@ consumer_secret = linecache.getline('twitter_api.md',46) #'HIDDEN'
 access_token =    linecache.getline('twitter_api.md',55) #'HIDDEN'
 access_secret =   linecache.getline('twitter_api.md',58) # 'HIDDEN'
 
-auth = OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_secret)
+auth = OAuthHandler(consumer_key[:-1], consumer_secret[:-1])
+auth.set_access_token(access_token[:-1], access_secret[:-1])
 
-api = tweepy.API(auth, wait_on_rate_limit=True)
+api = tweepy.API(auth, wait_on_rate_limit=True ,  wait_on_rate_limit_notify=True) 
 
 
 #tweet = api.get_status(id_of_tweet)

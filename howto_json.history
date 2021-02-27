@@ -1,0 +1,16 @@
+  16: df = pd.read_json('tweet-json_original.txt', orient='index')
+  17: df.info()
+  18: df.head()
+  19: df[0]
+  20: df[0].entities
+  21: df[0].id
+  22: df[0].retweet_count
+  23: df[0].favorite_count
+  24: df[0].favorite_count.value_counts()
+  25: df.favorite_count.value_counts()
+  26: df.favorite_count
+  27: df[0].favorite_count
+  28: df.shape()
+  29: df.shape
+  30: %history
+  31: %history -g -f howto_json.history
